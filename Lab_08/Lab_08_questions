@@ -1,0 +1,17 @@
+Q1. Find a positive floating point value x, for which x+1.0 = x. Verify
+your result using fp.s and tell us the hex representation of x.
+0x7f000000
+Q2. Find the smallest positive floating point value x for which x+1.0
+= x. State the hex representation of x.
+0x4C000000
+Q3. Determine a set of positive floating point numbers such that
+adding these numbers in a different order can yield a different value.
+You can do this using only three numbers. (Hint: Experiment with
+adding up different amounts of the x value you determined in Q2, and
+the value 1.0).
+0x7f000000, 0x4C000000,0x3F800000
+Q4. Based on your answer for Q3, do floating points obey associative
+rule like integers?
+No it does not obey associative rule.
+Karlyn Rahmgren
+JJ Aparicio

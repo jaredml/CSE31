@@ -1,0 +1,8 @@
+C1. What areas of memory (heap or stack) are affected by the statement ?
+
+C2. Does any memory get allocated or freed?
+yes memory does get allocated but it does not get freed because there is no destructor
+C3. If C2 is true then where is this memory?
+it is line 11 and line 15
+C4. Does the statement result in a memory leak?
+there is a memory leak on line 14 because the line before it does the same thing.

@@ -1,0 +1,9 @@
+1. there are 4 states
+
+2. No, only if the input is 1 is when the statement changes
+
+3. 0,0,1,1,2,3,5,13,21,
+
+4. It performs the Fibonacci 
+
+5. look in fsm2.c

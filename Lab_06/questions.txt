@@ -1,0 +1,26 @@
+collaborators
+Karlyn Rahmgren
+JJ Aparicio
+
+Q1. How many bugs are there? there are four bugs that need to be fixed
+
+Q2. How do you fix the bug(s)?
+
+you have to change the 1 in line 13 and 14 to 4. in line 15 bne needs to be changed to beq. line 17 needs a jump to loop.
+Q3. What is your strategy to finding the bug(s)? going line by line in the code and figuring out the problems logically.
+
+Q4. Where is the source pointer stored originally?
+
+it is located in line 28  and the line says la    $9,source.
+Q5. Where is the destination pointer stored originally?
+The source pointer is stored in $10.
+Q6. What instruction is used to load the address of source and dest
+pointers?
+we use the function la
+Q7. Where does the loop to copy values start? (give line # and the first
+instruction and/or label of where it is)
+the loop starts at line 34, $l6.
+Q8. Explain what each line in the loop is trying to do in the following format:
+Instruction : add $4, $0, $0 (as an example)
+Purpose : to do nothing
+Corresponding C : x = 0;

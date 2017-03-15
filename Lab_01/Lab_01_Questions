@@ -1,0 +1,25 @@
+1. -c flag builds an object file.
+
+2. -o tells me where to put the file.
+
+3. give the -g command before the -c like below
+jlipp@01-00-01-2e-27-36-a3:~/Desktop/CSE31/Lab_01$ gcc -g -c output0.c
+jlipp@01-00-01-2e-27-36-a3:~/Desktop/CSE31/Lab_01$ gcc -g -o output0 output0.o
+jlipp@01-00-01-2e-27-36-a3:~/Desktop/CSE31/Lab_01$ gdb output0
+gdb run
+
+4. break output0.c:main or break main
+
+5. print variable_name
+
+6. next(.... n)
+
+7. it would have to be a 32 bit unsigned int because the number it gives is 2147483648 in base 10 and in base 2 that would be 1 0000 0000 0000 0000 0000 0000 0000 and that is atleast 29 bits
+
+8. the second number given is 2147483647, which is a long and it is also 32 bits.
+
+9. yes it is just negative.
+
+10. It shows it this way because of 2's compliment each other and if you take the most negarive number and convert it its the same. 
+
+collaborators Karly Rahmgren

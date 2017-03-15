@@ -1,0 +1,12 @@
+Q1.What do the .data, .word ,.text directives mean (i.e., what do you put in each section)?
+the .data is variables and stores it in memory. The .word directive is an address for n. the .text directive is where your code goes.
+Q2.How do you set a breakpoint in MARS? Set breakpoint on line 15, give the command in your answer.
+you check the box the breakoint box for the line you want broken at.
+Q3.After your program stops because of a breakpoint, how do you continue to execute your code? How do you step through your code?
+you click the run button.
+Q4.How can you find out the contents of a register? How do you modify the value of a register?
+you go to the rigister that you want changed and click on it to change it to what you want.
+Q5.At what address is n stored in memory? Calculate the 13th fib number by modifying this memory location. 
+it is stored at 0x10010000 and if you change .word 9 to .word 13 you get 233 as the 13th fibanocci number.
+Q6.line 18 and 20 use syscall instruction. What is it and how do you use it?
+it gets information from the code and does a system call. in the fib.s file it prints out the number but syscall can do a lot more than just print out an integer.

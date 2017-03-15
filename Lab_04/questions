@@ -1,0 +1,8 @@
+Q1.When you run the code, it fails to give the expected result, why?
+There is an error with strcat because it adds world on to hello but the hello array doesnt have enough space for world.
+Q2.What's one way to fix this bug?
+I allocated memory by putting 13 in hello[].
+Q3. How do you run a program in gdb?Why doesn't C provide the same kind of bounds-checking on arrays that Java does?
+you have to compile the code using the debugger, then enter gdb with the executable file. in gdb type run.
+Q4.What is a pro and a con for implementing strings as dumb arrays rather than smart objects like in Java?
+
